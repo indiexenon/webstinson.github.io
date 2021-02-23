@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="opacity"></div>
+	<div class="top">
+	<a href="#home">	
+	<i class="fas fa-arrow-up" aria-hidden="true"></i></a>
+	</div>
+	<!--main section-->
+	<header>
+		<div class="Logo">
+			<h1><b>WEBSTINSON</b></h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#projects">Project</a></li>
+				<li><a href="#hiring">Hire Me</a></li>
+			
+			</ul>
+		</nav>
+		</header>
+
+		<div id="home" class="main-wrapper">
+			<div class="main-section">
+				<p>Hello I Am Paras Dalvi A Student Of KC College</p>
+			</div>
+			<div class="button">
+				<a href="#hiring" class="button1"><button>Hire me</button></a>
+				<a href="#projects" class="button2"><button>Projects</button></a>
+			</div>
+
+		</div>
+		<!--project section-->
+		<div id="projects"class="projects-wrapper">
+			
+			<br>
+			<br>
+			<p><h1> My project </h1></p>
+			<br>
+			<div style="overflow-y: auto; height:500px; ">
+			
+			<div class="projects">
+				<div class="card">
+					<img src="./img/project1.jpg.jpg"alt="project 1">
+					<a href="./projects/snakegame.py"> Sanke game </a>
+				</div>
+				<div class="card">
+					<img src="./img/project2.jpg.jpg"alt="project 1">
+					<a href="./projects/tictactoc.py">tictactoc</a>
+				</div>
+				<div class="card">
+					<img src="./img/project3.jpg.jpg"alt="project 1">
+					<a href="./projects/web browser.py">web browser</a>
+				</div>
+				<div class="card">
+					<img src="./img/project4.jpg"alt="project 1">
+					<a href="./projects/colour123"> gusse the colour </a>
+				</div>
+			</div>
+			<a href="projectpage.html"><button class="more-projects">More Project</button></a>
+			<br>
+			<br>
+			<br>
+		</div>
+		</div>
+<!--Quote section-->
+		<div>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+        <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+      </svg>
+      <p class="leading-relaxed text-lg">“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” </p>
+      <span class="inline-block h-1 w-10 rounded bg-green-500 mt-8 mb-6"></span>
+      <h2 class="text-white-900 font-medium title-font tracking-wider text-sm">PARAS DALVI.</h2>
+      <p class="text-white-500">FOUNDER & CEO of Webstinson</p>
+    </div>
+  </div>
+</section>
+</div>
+			<!-- hire me section-->
+			<div id="hiring"class="hire-me-wrapper">
+				<h1>Fill the form,I will be back with a quote</h1>
+				<div class="form">
+					<form action="action_page.php" method="post">
+						<input type="text" name="name" placeholder="Name" required>
+						<input type="email" name="Email" placeholder="Email" required>
+						<textarea name="" id="" cols="30" rows="10" placeholder="Describe the work"></textarea>
+
+						<button type="submit">Submit</button>
+						</form>						
+				</div>
+				<footer>
+					<i class="fab fa-facebook" aria-hidden="true"><a href="https://www.facebook.com/parasdalvi/"></a></i>
+					<i class="fab fa-instagram" aria-hidden="true"><a href="https://www.instagram.com/parasdalvii/"></a></i>
+					<i class="fab fa-stack-overflow" aria-hidden="true"><a href="https://www.facebook.com/paras.dalvi/"></a></i>
+				</footer>			
+			</div>
+
+
+
+
+
+		
+	</body>
+</html>
